@@ -106,28 +106,6 @@
      margin-right: 20px;
 }
 
-  .photo-grid {
-    width: 900px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-  }
-
-.first-item {
-    order: 1;
-}
-
-.last-item {
-    order: -1;
-}
-  
-  .photo-grid-item {
-    border: 1px solid #fff;
-    width: 300px;
-    height: 300px;
-  }
-
   .social,
 .subscribe {
   align-self: flex-end;
