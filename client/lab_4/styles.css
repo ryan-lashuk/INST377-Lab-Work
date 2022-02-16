@@ -89,6 +89,12 @@
       transform: translateY(-50%);
   }
 
+  .middle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
   .photo-grid-container .carousel_actions button {
       border-radius: 50px;
       border: 0;
