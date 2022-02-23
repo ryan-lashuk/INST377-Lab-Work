@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+.top_box {
+  width: 100%;
+  background-color: red;
+  border: 1px black;
+  border-radius: 2px;
+  margin: 25px 25px;
+  padding: 40px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -24,4 +33,53 @@ body {
 .container {
   max-width: 960px;
   margin-top: 25px;
+}
+
+.speaker-form {
+  position: relative;
+  background-color: #F6F7F8;
+  border: 1px solid #D6D9DC;
+  border-radius: 5px;
+  width: 100%;
+  padding: 50px;
+  margin: 0 0 40px 0;
+}
+
+.field {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.label {
+  margin-bottom: 8px;
+}
+
+.field-blocker {
+  margin-bottom: 16px;
+}
+
+.submit {
+  display: flex;
+  position: absolute;
+  left: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: white;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.food_box {
+  background-color: #F6F7F8;
+  border: 1px solid #D6D9DC;
+  border-radius: 5px;
+  width: 100%;
+  padding: 20px;
 }
