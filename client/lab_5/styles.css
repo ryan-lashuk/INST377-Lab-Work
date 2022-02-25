@@ -4,18 +4,45 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: black;
+}
+
+.top_box {
+  width: 100%;
+  background-color: red;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+.left_box {
+  background-color: red;
+  padding: 50px;
+  margin: 12px;
+  border-radius: 3px;
+}
+
+.right_box {
+  background-color: red;
+  padding: 30px 150px;
+  margin: 24px;
+  border-radius: 3px;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
     ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
-  background-color: black;
 }
 
 /* Page Layout */
 .columns {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper {
@@ -26,30 +53,12 @@ body {
   margin-top: 25px;
 }
 
-.top_box {
-  background-color: red;
-  padding: 50px;
-  margin: 12px;
-  border-radius: 3px;
-}
-
-.box {
-  background-color: red;
-  padding: 50px;
-  margin: 12px;
-  border-radius: 3px;
-}
-
-.columns {
-  align-items: center;
-  justify-content: center;
-}
-
-.button {
+.submit_button {
   display: flex;
   left: 20px;
   align-items: center;
   justify-content: center;
+  left: 0;
   font-size: 16px;
   color: red;
   background-color: black;
