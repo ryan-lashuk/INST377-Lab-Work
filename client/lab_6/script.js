@@ -34,7 +34,7 @@ function createHtmlList(collection) {
 
 async function mainEvent() { // the async keyword means we can make API requests
   const form = document.querySelector('.left_box');
-  const submit = document.querySelector('.button');
+  const submit = document.querySelector('.submit_button');
   // submit.style.display = 'none';
   
   const results = await fetch('/api/foodServicesPG'); // This accesses some data from our API
