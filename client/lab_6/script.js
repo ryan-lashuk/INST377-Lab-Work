@@ -6,7 +6,7 @@ function getRandomIntInclusive(min, max) {
   );
 }
 
-function restoArrayMake(dataArray) {
+function restoArrayMake(dataArray){
   console.log('fired datahandler');
   console.table(dataArray); // this is called "dot notation"
   const range = [...Array(15).keys()];
@@ -14,18 +14,18 @@ function restoArrayMake(dataArray) {
     const restNum = getRandomIntInclusive(0, dataArray.length - 1);
     return dataArray[restNum];
   });
-
+  
   console.log(listItems);
   return listItems;
-  // range.forEach((item) => {
-  //  console.log('range item', item);
-  // });
+  //range.forEach((item) => {
+    //console.log('range item', item);
+  //});
 }
 
 function createHtmlList(collection) {
   console.log(collection);
   const targetList = document.querySelector('.resto-list');
-  targetList.innerHTML = '';
+  targetList.innerHTML = "";
   collection.forEach((item) => {
     const injectThisItem = `<li>${item.name}</li>`;
     targetList.innerHTML += injectThisItem;
@@ -33,13 +33,13 @@ function createHtmlList(collection) {
 }
 
 async function mainEvent() { // the async keyword means we can make API requests
-  const form = document.querySelector('.box');
-  const submit = document.querySelector('.submit_button');
-  submit.style.display = 'none';
-
+  const form = document.querySelector('.left_box');
+  const submit = document.querySelector('.button');
+  // submit.style.display = 'none';
+  
   const results = await fetch('/api/foodServicesPG'); // This accesses some data from our API
   const arrayFromJson = await results.json(); // This changes it into data we can use - an object
-  console.log(arrayFromJson);
+  console.log(arrayFromJson)
   if (arrayFromJson.data.length > 0) {
     submit.style.display = 'block';
     form.addEventListener('submit', async (submitEvent) => { // async has to be declared all the way to get an await
