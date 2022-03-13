@@ -5,26 +5,26 @@
 }
 
 html {
-  background-color: black;
+  background-color: blue;
 }
 
-.top_box {
+.top {
   width: 100%;
-  background-color: red;
+  background-color: yellow;
   padding: 30px;
   margin: 0 auto;
   border-radius: 3px;
 }
 
-.left_box {
-  background-color: red;
+.box {
+  background-color: yellow;
   padding: 50px;
   margin: 12px;
   border-radius: 3px;
 }
 
-.right_box {
-  background-color: red;
+.box2 {
+  background-color: yellow;
   padding: 30px 150px;
   margin: 24px;
   border-radius: 3px;
@@ -54,15 +54,15 @@ body {
   margin-top: 25px;
 }
 
-.sumbit_button {
+.button {
   display: flex;
   left: 20px;
   align-items: center;
   justify-content: center;
   left: 0;
   font-size: 16px;
-  color: red;
-  background-color: black;
+  color: white;
+  background-color: blue;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
