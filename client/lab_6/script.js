@@ -24,7 +24,7 @@ function restoArrayMake(dataArray){
 
 function createHtmlList(collection) {
   console.log(collection);
-  const targetList = document.querySelector('.resto-list');
+  const targetList = document.querySelector('.restaurant-list');
   targetList.innerHTML = "";
   collection.forEach((item) => {
     const injectThisItem = `<li>${item.name}</li>`;
