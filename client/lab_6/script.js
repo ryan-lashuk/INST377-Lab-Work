@@ -24,7 +24,7 @@ function restoArrayMake(dataArray){
 
 function createHtmlList(collection) {
   console.log(collection);
-  const targetList = document.querySelector('.restaurant-list');
+  const targetList = document.querySelector('.resto-list');
   targetList.innerHTML = "";
   collection.forEach((item) => {
     const injectThisItem = `<li>${item.name}</li>`;
@@ -35,7 +35,7 @@ function createHtmlList(collection) {
 async function mainEvent() { // the async keyword means we can make API requests
   const form = document.querySelector('.left_box');
   const submit = document.querySelector('.submit_button');
-  // submit.style.display = 'none';
+  submit.style.display = 'none';
   
   const results = await fetch('/api/foodServicesPG'); // This accesses some data from our API
   const arrayFromJson = await results.json(); // This changes it into data we can use - an object
