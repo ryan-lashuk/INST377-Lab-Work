@@ -1,91 +1,91 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    background-color: black;
-  }
-  
-  .top_box {
-    width: 100%;
-    background-color: red;
-    padding: 30px;
-    margin: 0 auto;
-    border-radius: 3px;
-  }
-  
-  .left_box {
-    background-color: red;
-    padding: 50px;
-    margin: 12px;
-    border-radius: 3px;
-  }
-  
-  .right_box {
-    background-color: red;
-    padding: 30px 150px;
-    margin: 24px;
-    border-radius: 3px;
-    width: 640px;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
-      ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
-   
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  #map { height: 360px; }
-  
-  /* Page Layout */
-  .columns {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .wrapper {
-    display: flex;
-  }
-  .container {
-    max-width: 960px;
-    margin-top: 25px;
-  }
-  
-  .button {
-    display: flex;
-    left: 20px;
-    align-items: center;
-    justify-content: center;
-    left: 0;
-    font-size: 16px;
-    color: red;
-    background-color: black;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  .field {
-    margin-bottom: 16px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  
-  .label {
-    margin-bottom: 8px;
-  }
-  
-  .head2 {
-    display: flex;
-    justify-content: flex-start;
-    font-weight: bold;
-  }
+html {
+  background-color: blue;
+}
+
+.top {
+  width: 100%;
+  background-color: yellow;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+.box {
+  background-color: yellow;
+  padding: 50px;
+  margin: 12px;
+  border-radius: 3px;
+}
+
+.box2 {
+  background-color: yellow;
+  padding: 30px 150px;
+  margin: 24px;
+  border-radius: 3px;
+  width: 640px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
+    ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
+ 
+}
+
+#map { height: 360px; }
+
+/* Page Layout */
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+}
+.container {
+  max-width: 960px;
+  margin-top: 25px;
+}
+
+.button {
+  display: flex;
+  left: 20px;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  font-size: 16px;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.field {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.label {
+  margin-bottom: 8px;
+}
+
+.head2 {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+}
