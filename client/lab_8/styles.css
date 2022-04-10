@@ -8,7 +8,7 @@
     background-color: black;
   }
   
-  .top {
+  .top_box {
     width: 100%;
     background-color: red;
     padding: 30px;
@@ -16,14 +16,14 @@
     border-radius: 3px;
   }
   
-  .box {
+  .left_box {
     background-color: red;
     padding: 50px;
     margin: 12px;
     border-radius: 3px;
   }
   
-  .box2 {
+  .right_box {
     background-color: red;
     padding: 30px 150px;
     margin: 24px;

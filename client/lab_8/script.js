@@ -76,7 +76,7 @@ return map;
   }
 
   async function mainEvent() { // the async keyword means we can make API requests
-    const form = document.querySelector('.box');
+    const form = document.querySelector('.left_box');
     const submit = document.querySelector('.submit_button');
     
     const resto = document.querySelector('#resto_name');
